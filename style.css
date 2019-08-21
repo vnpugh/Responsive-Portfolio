@@ -1,10 +1,15 @@
 body{ font-family: Arial, Helvetica, sans-serif;
       font-size: 16px;
       color: #777777;
-      line-height: 1.8em;
+      line-height: 34px;
       margin-bottom: 2em;
-      background-color:  #e0e0e0;
+       background: url("images/concrete_seamless.png");
    }
+
+
+   /* universal box-sizing */
+* { box-sizing: border-box;
+}
 
 
 header{ 
@@ -43,11 +48,6 @@ h1{ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
-
-/* universal box-sizing */
-* { box-sizing: border-box;
-}
-
 .pages{ width: 960px;
             margin: 0 auto;
             clear: both;
@@ -57,9 +57,10 @@ h1{ font-family: Georgia, 'Times New Roman', Times, serif;
 #relative{ 
              width: 960px;
 	           margin: 40px 300px;
-	           padding: 20px;
+	            padding: 20px;
 	           background-color: #ffffff;
              border: 3px solid #dddddd;
+          
 }
 
 
@@ -196,7 +197,9 @@ nav ul li:first-child a { border-left: 0;
   font-size: 20px;
 }
 
+
 /*Media Queries */
+
 @media only screen and (max-width: 980px) {
   body {
     position: static;
@@ -216,7 +219,7 @@ nav ul li:first-child a { border-left: 0;
   }
 
   #relative {
-    width: 380px;
+    width: 390px;
     margin-left: 130px;
   }
 
@@ -286,7 +289,7 @@ nav ul li:first-child a { border-left: 0;
 
    #name {
     position: static;
-    width: 640px;
+    width: 100%;
     margin: 0;
   }
 
@@ -324,6 +327,13 @@ nav ul li:first-child a { border-left: 0;
   }
   
 }
+
+
+
+
+
+
+
 
 
 
